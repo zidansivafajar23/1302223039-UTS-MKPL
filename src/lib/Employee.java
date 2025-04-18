@@ -39,7 +39,7 @@ public class Employee {
 	}
 	
 	public void setSalaryByGrade(int grade) {
-        salary.setBaseSalaryByGrade(grade, isForeigner);
+        salary.setSalaryByGrade(grade, isForeigner);
     }
 	
 	public void setAnnualDeductible(int deductible) {
